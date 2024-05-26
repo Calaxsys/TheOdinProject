@@ -1,0 +1,1 @@
+This is a repository for me to store all of my projects and practice work from The Odin Project
