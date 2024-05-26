@@ -1,0 +1,16 @@
+:root {
+    --system-ui: "Proxima Nova", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+    font-family: var(--system-ui);
+}
+
+main {
+    /* margin: 0 auto 0 auto; */
+    display: flex;
+}
+
+#form-photo {
+    max-width: 40%;
+}
