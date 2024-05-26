@@ -8,10 +8,21 @@
 </head>
 <body>
     <main>
-        <div id="left-of-main">
-            <img src="max-bender-VmX3vmBecFE-unsplash.jpg" id="form-photo" alt="A photo of New York City, taken from street view">
+        <div id="left-of-main" class="section">
+            <div id="photo-div">
+                <img src="max-bender-VmX3vmBecFE-unsplash.jpg" id="background-photo" alt="A photo of New York City, taken from street view">
+                <div id="logo-div">
+                    <img src="odin-lined-logo.png" id="odin-logo" alt="TheOdinProject logo">
+                    <span id="sign-up-text">Sign-Up!</span>
+                </div>
+            </div>
         </div>
-        <div id="right-of-main">
+        <div id="right-of-main" class="section">
+            <div id="main-txt">
+                <div>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</div>
+                <div>Sign up <em>now</em> to get started</div>
+                <div id="main-txt-3">You know you want to.</div>
+            </div>
             <form action="example.com/path">
                 <div>
                     <label for="first-name">First Name</label>
@@ -38,6 +49,10 @@
                     <input type="" name="confirm-password" id="confirm-password">
                 </div>
             </form>
+            <div>
+                <button id="create-account-btn" type="submit">Create Account</button>
+                <span>Already have an account? <a>Log in</a></span>
+            </div>
         </div>
     </main>
 </body>

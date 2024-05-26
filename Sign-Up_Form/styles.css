@@ -2,15 +2,73 @@
     --system-ui: "Proxima Nova", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
 body {
     font-family: var(--system-ui);
 }
 
 main {
-    /* margin: 0 auto 0 auto; */
     display: flex;
+    flex-wrap: wrap;
 }
 
-#form-photo {
-    max-width: 40%;
+.section {
+    flex: 0 0 50%;
+}
+
+#background-photo {
+    width: 100%;
+    max-height: 100vh;
+}
+
+#photo-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-div {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 15px;
+    gap: 2rem;
+}
+
+#odin-logo {
+    width: 25%;
+}
+
+#sign-up-text {
+    font-size: 7rem;
+    color: white;
+}
+
+#main-txt {
+    display: flex;
+    flex-direction: column;
+    width: 45ch;
+    margin: 5rem;
+    font-size: 20px;
+}
+
+form {
+    margin: 0 5rem 5rem 5rem;
+}
+
+#main-txt-3 {
+    margin: 1rem 0 1rem 0;
+}
+
+#right-of-main {
+
 }
