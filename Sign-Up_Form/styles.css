@@ -56,20 +56,76 @@ main {
 #main-txt {
     display: flex;
     flex-direction: column;
-    width: 45ch;
+    width: 46ch;
     margin: 5rem;
     font-size: 20px;
+    font-weight: 700;
+}
+
+#lets-do-this {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 form {
-    margin: 0 5rem 5rem 5rem;
-    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input, label {
+    display: block;
+}
+
+label {
+    text-transform: uppercase;
+    color: rgb(108, 108, 108);
+}
+
+input {
+    margin-bottom: 25px;
+    width: 25ch;
+    font-size: 20px;
+}
+
+#left-form, #right-form{
+    flex: 1;
+}
+
+#form-container {
+    background-color: white;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.29);
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 2rem;
+    height: fit-content;
 }
 
 #main-txt-3 {
     margin: 1rem 0 1rem 0;
 }
 
-#right-of-main {
+#submit-area {
+    display: flex;
+    flex-direction: column;
+}
 
+#create-account-btn {
+    width: 250px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 0 0 2rem 2rem;
+    color: white;
+    background-color: navy;
+    cursor: pointer;
+}
+
+#log-in-txt {
+    margin: 0 0 0 2.5rem;
+    font-size: 16px;
+}
+
+#log-in-txt a {
+    color: navy;
+    cursor: pointer;
 }
