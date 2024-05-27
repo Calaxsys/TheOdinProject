@@ -85,6 +85,7 @@ input {
     margin-bottom: 25px;
     width: 25ch;
     font-size: 20px;
+    border: 2px solid rgba(79, 79, 79, 0.558)
 }
 
 #left-form, #right-form{
@@ -118,6 +119,18 @@ input {
     color: white;
     background-color: navy;
     cursor: pointer;
+}
+
+input:focus {
+    border: navy;
+}
+
+input:valid {
+    border-color: rgb(14, 190, 230);
+  }
+
+#password:invalid, #confirm-password:invalid {
+    border-color: red;
 }
 
 #log-in-txt {
