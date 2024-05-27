@@ -19,7 +19,7 @@ main {
 }
 
 .section {
-    flex: 0 0 50%;
+    flex: 1 1 50%;
 }
 
 #background-photo {
@@ -29,7 +29,6 @@ main {
 
 #photo-div {
     display: flex;
-    width: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -60,6 +59,7 @@ main {
     margin: 5rem;
     font-size: 20px;
     font-weight: 700;
+    flex-wrap: wrap;
 }
 
 #lets-do-this {
@@ -126,7 +126,7 @@ input:focus {
 }
 
 input:valid {
-    border-color: rgb(14, 190, 230);
+    border-color: rgba(79, 79, 79, 0.558);
   }
 
 #password:invalid, #confirm-password:invalid {
@@ -134,7 +134,7 @@ input:valid {
 }
 
 #log-in-txt {
-    margin: 0 0 0 2.5rem;
+    margin: 0 1rem 0 2.5rem;
     font-size: 16px;
 }
 
